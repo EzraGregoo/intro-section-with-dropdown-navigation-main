@@ -198,9 +198,18 @@ main {
     gap: 1.75rem;
 }
 
+.mobile-img {
+    width: 100%;
+}
+
+.desktop-img {
+    display: none;
+}
+
 main h1 {
     font-size: 2.5rem;
     margin: 0;
+    text-align: center;
 }
 
 main p {
@@ -231,7 +240,7 @@ main p {
 
 .learn-more {
     background-color: black;
-    border-radius: 5px;
+    border-radius: 7.5px;
     width: 35%;
     height: 2.5em;
     border-style: none;
@@ -242,14 +251,6 @@ main p {
     color:  var(--almost-white);
     font-weight: bold;
     text-decoration: none;
-}
-
-.mobile-img {
-    max-width: 100%;
-}
-
-.desktop-img {
-    display: none;
 }
 
 .attribution { 
@@ -263,7 +264,7 @@ main p {
 }
 
 
-@media (min-width: 375px) {
+@media (min-width: 640px) {
     .mobile-img {
         display: none;
     }
